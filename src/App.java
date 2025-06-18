@@ -21,6 +21,17 @@ public class App {
         System.out.println("\n POSTORDER");
         ab.imprimirPosOrder();
 
+        if (ab.findValue(23)!=null){
+            System.out.println("\n Encontro el numero 23");
+        }
+        else{
+            System.out.println("No se encontro el valor 23");
+        }
+        if (ab.findValue(77)!=null){
+            System.out.println("Encontro el numero 77");
+        }else{
+            System.out.println("No se encontro el valor 77");
+        }
 
     }
 }

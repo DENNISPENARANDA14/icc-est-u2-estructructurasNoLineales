@@ -27,7 +27,7 @@ public class BinaryTree {
         }
         return padre;
     }
-    
+
     public void imprimirPreorder(){
         imprimirPreOrderRec(root);
     }
@@ -58,5 +58,18 @@ public class BinaryTree {
             System.out.print(node.getValue() + " , ");
             imprimirInOrderRec(node.getHijoDerecha());
         }
+    }
+
+    public Node findValue(int value){
+        return findValueRec(root,value);
+    }
+    private Node findValueRec(Node node,int value){
+        if(node == null || node.getValue()==value){
+            return node;
+        }
+        if(value < node.getValue()){
+            return findValueRec(node.getHijoIzquierda(),value);
+        }
+        return findValueRec(node.getHijoDerecha(), value);
     }
 }
