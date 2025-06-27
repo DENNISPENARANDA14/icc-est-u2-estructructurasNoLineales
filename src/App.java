@@ -6,11 +6,11 @@ import Materia.controllers.BinaryTree;
 public class App {
     public static void main(String[] args) throws Exception {
         AVLTree abl=new AVLTree();
-        abl.inser(5);
-        abl.inser(20);
-        abl.inser(15);
+        abl.insert(5);
+        abl.insert(20);
+        abl.insert(15);
     }
-    
+
     private static void app(){
         System.out.println("Hello, World!");
         BinaryTree ab = new BinaryTree();

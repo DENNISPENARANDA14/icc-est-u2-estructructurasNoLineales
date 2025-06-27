@@ -30,3 +30,4 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ---
 ![CAPTURA](IMAGEN.png)
+![CAPTURA](imagen1.png)
