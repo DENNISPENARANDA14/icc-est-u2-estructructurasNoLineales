@@ -16,3 +16,17 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+# Práctica de estructuras no lineales
+
+## 📌 Información General
+
+- **Título:** Práctica de estructuras no lineales
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** Dennis Alejandro Penaranda Tello
+- **Fecha:** 19 de junio del 2025
+- **Profesor:** Ing. Pablo Torres
+
+---
+![CAPTURA](IMAGEN.png)
